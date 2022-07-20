@@ -15,5 +15,15 @@ with open("geust.txt", 'a') as f:
     f.write(line)
 # Inserting  New  line After every record
     f.write("\n")
-   
 
+
+
+#writing list to  a text file
+
+fruits = ['Mangos', 'Apples', 'Oranges', 'Grapes']
+
+with open('fruit.txt', 'a') as f:
+
+   for fruit in fruits:
+    f.write(fruit)
+    f.write('\n')
